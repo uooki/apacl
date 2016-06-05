@@ -1,0 +1,24 @@
+{
+    "name": "uooki/apacl",
+    "description":"Light-weight permissions control.",
+    "licence":"MIT",
+    "keywords":[
+             "acl",
+	     "permissions",
+	     "security"
+    ],
+    "authors":[
+        {
+	   "name":"Shaun.zung",
+	   "role":"Developer"
+	}
+    ],
+    "require":{
+         "php":">=5.5.9",
+    },
+    "autoload":{
+       "psr-4":{
+            "Acl\\":"src/"
+       }
+    }
+}
