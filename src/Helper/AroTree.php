@@ -4,10 +4,6 @@ namespace  Apacl\Helper;
 use  models
 class  AroTree{
    
-
-   
-   
-   
    // 获取末节点到根节点的路径
    static public function  getPath($noteid){
 	   

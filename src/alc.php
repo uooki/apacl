@@ -1,16 +1,15 @@
 <?php
 namespace  Apacl;
-
-
+use   Helper\AroTree;
 class  Apacl{
 
-    use   Helper\AroTree;
+  
 	
-    public $note=null;
+    public $caller=null;
 
-    public function __construct(note $note){
+    public function __construct(caller $caller){
         
-              $this->note=$note;   //  caller 是一个实现了caller interface 的user modul
+              $this->caller=$caller;   //caller 是一个实现了caller interface 的user modul
 
     }
 	
@@ -19,7 +18,7 @@ class  Apacl{
 		
 		    if("/"==$route){
 				
-				
+			
 			}elseif("all"==$route){
 				
 				

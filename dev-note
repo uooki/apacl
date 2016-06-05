@@ -4,6 +4,9 @@ an acl with php
 ////////////////////////
 
 
-使用门面模式，提供一个统一的门面类： acl 
+1. 使用门面模式，提供一个统一的门面类： acl 
 
-通过acl 类做各种 acl 操作
+   通过acl 类做各种 acl 操作
+
+2. 有些地方借鉴了BeatSwitch/lock 的思路
+   github :https://github.com/BeatSwitch/lock
