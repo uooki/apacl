@@ -117,6 +117,15 @@ class AclList
         return null;
 
     }
+	
+	// 添加权限
+	
+	static   public  function  add($caller,$resource,$allow=true){
+		
+		
+	}
+	
+	
 
 
 
