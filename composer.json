@@ -1,10 +1,9 @@
 {
-    "name": "uooki/laracl",
-    "description":"Light-weight role-based permissions.",
+    "name": "uooki/apacl",
+    "description":"Light-weight permissions control.",
     "licence":"MIT",
     "keywords":[
              "acl",
-	     "role-based",
 	     "permissions",
 	     "security"
     ],
