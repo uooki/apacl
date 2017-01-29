@@ -1,36 +1,23 @@
 <?php
-namespace  Apacl;
+/**
+ * Created by PhpStorm.
+ * User: uoouki
+ * Date: 2017/1/29
+ * Time: 19:57
+ */
+
+namespace Uooki\Apacl;
 
 
-class  Permission{
+class Permission
+{
+      public function  add($resource,$target=null){
 
 
+      }
+
+      public function  delete($resource,$target=null){
 
 
-    public function __construct(){
-                   
-
-    }
-    
-    public  function  getPermissions($notes){
-    
-	    $permiss=null;
-	    foreach($notes as $k=>$v){
-			 // $v 是note id
-			 $res = Mpermissions::getPermissonsByNoteId($v);
-			 $permiss[$v]=$res;
-		}
-		
-		return $permiss;
-		
-    }
-	
-	
-	
-
-
-    
+      }
 }
-
-
-?>
