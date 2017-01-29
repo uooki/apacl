@@ -11,6 +11,9 @@ namespace Uooki\Apacl;
 
 /**
  * Class Aclist
+ *
+ * data class
+ *
  * @package Uooki\Apacl
  */
 class Aclist
