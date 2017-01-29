@@ -1,0 +1,17 @@
+/vendor/
+composer.lock
+tags
+*.swp
+*.mp4
+*.ogg
+*.mkv
+*.avi
+*.rm
+*.rmvb
+Homestead.yaml
+Homestead.json
+_ide_helper.php
+/.idea
+
+
+
