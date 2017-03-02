@@ -17,10 +17,6 @@ class Apacl
 
 
     public function __construct($config,$target=null){
-        // init acl to memory
-
-        // role ,user 应该是作为项目的一部分比较好 ，usercontroller usermodule  usersystem
-        // 本包用于实现 aclist , 传递user 对象进来 ，然后解析出它的acl   
 
     }
 
